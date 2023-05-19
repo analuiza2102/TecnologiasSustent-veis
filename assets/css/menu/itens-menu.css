@@ -1,0 +1,6 @@
+.itens_menu{
+    display: flex;
+    flex-direction: space-between; /* Alinha os itens do menu */
+    justify-content: space-between; /* Alinha os itens do menu */
+}
+

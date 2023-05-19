@@ -1,0 +1,25 @@
+.texto_sobre{
+    font-size: 24px;
+    font-family:'Roboto', sans-serif;
+    color: rgb(105, 102, 102);
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 1.5;
+    margin-left:  20px; 
+
+}
+
+@media screen and (min-width: 0) {
+    .texto_sobre {
+        font-size: 21px;  /* 1.3rem */
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .texto_sobre {
+        font-size: 28px;  /* 1.75rem */
+     
+    }
+}
+

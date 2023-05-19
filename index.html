@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    
+
+
+    <!--fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!--css-->
+
+    <link rel="stylesheet" href="assets\css\reset.css">
+    <link rel="stylesheet" href="assets\css\normalize.css">
+   
+    <!--css menu-->
+    <link rel="stylesheet" href="./assets/css/menu/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/menu/itens-menu.css">
+    <link rel="stylesheet" href="./assets/css/menu/logo.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-itens.css">
+    <link rel="stylesheet" href="./assets/css/menu/menu-link.css">
+    
+
+    <!--css banner-->
+    <link rel="stylesheet" href="assets\css\banner\banner.css">
+    <link rel="stylesheet" href="assets\css\banner\banner-titulo.css">
+    <link rel="stylesheet" href="assets\css\banner\banner-imagem.css">
+
+    <!--css sobre-->
+    <link rel="stylesheet" href="assets\css\sobre\sobre.css">
+    <link rel="stylesheet" href="assets\css\sobre\titulo-sobre.css">
+    <link rel="stylesheet" href="assets\css\sobre\texto-sobre.css">
+
+    <!--css cards-->
+    <link rel="stylesheet" href="./assets/css/cards/cards.css">
+    <link rel="stylesheet" href="./assets/css/cards/cards-botao.css">
+    <link rel="stylesheet" href="./assets/css/cards/card-descricao.css">
+    <link rel="stylesheet" href="./assets/css/cards/card-titulo.css">
+    <link rel="stylesheet" href="./assets/css/cards/card-conteudo.css">
+    <link rel="stylesheet" href="./assets/css/cards/cads-rp.css">
+  
+
+    <!--css quem somos-->
+    <link rel="stylesheet" href="assets\css\quem-somos\quem-somos.css">
+    <link rel="stylesheet" href="assets\css\quem-somos\quem-somos__descricao.css">
+    <link rel="stylesheet" href="assets\css\quem-somos\quem-somos__titulo.css">
+
+
+
+
+    <!--css pessoas-->
+    
+    <link rel="stylesheet" href="assets\css\pessoa\pessoas.css">
+    <link rel="stylesheet" href="assets\css\pessoa\pessoa__funcao.css">
+    <link rel="stylesheet" href="assets\css\pessoa\pessoa_nome.css">
+    <link rel="stylesheet" href="assets\css\pessoa\pessoa.css">
+    
+    <!--css contato-->
+    <link rel="stylesheet" href="assets\css\footer\footer.css">
+    <link rel="stylesheet" href="assets\css\footer\footerredes.css">
+    <link rel="stylesheet" href="assets\css\footer\footerlogo.css">
+
+    <link rel="stylesheet" href="./assets/css/alertjs/alert.css">
+
+
+    <!--Icon-->
+
+    <link rel="icon" href="./assets/img/icon/energia-renovavel.png" type="image/icon type">
+    <title>Tech Sustentável</title>
+
+</head>
+<body>
+
+    <header class="cabecalho">
+        <img class="logo" src="./assets/img/logo.png" alt="Logo">
+         <nav class="menu">
+            <ul class="itens_menu">
+                <li class="itens_"> <a class="menu_link ativo" href="#">Home </a></li>
+                <li class="itens_"> <a class="menu_link" href="#sobre">T.I verde</a></li>
+                <li class="itens_"> <a class="menu_link" href="#section">Comunidade </a></li>
+            </ul>
+         </nav>
+    </header>
+
+    <div class="banner">
+        <img src="assets\img\banner.jpg" alt="Banner- predio sustentável." class="banner_imagem">
+        <h2 class="titulo_banner">Tecnologias sustentáveis!</h2>
+        
+    </div>
+
+    <section class="sobre">
+        <h2 class="titulo_sobre">Inovação Sustentável para um Futuro Responsável</h2>
+        <p class="texto_sobre">Descubra as soluções de tecnologias sustentáveis que estão moldando um futuro mais responsável, 
+     combinando eficiência, design consciente e energia renovável para preservar o nosso planeta</p>
+    </section>
+ 
+    <section class="card" id="sobre">
+        <div class="cards">
+            <img alt="Computador Sustentavel" class="card__imagem" src="./assets/img/cardstech/pc_sust.webp" />
+            <div class="card__conteudo">
+                <h4 class="card__titulo">Aspire Vero</h4>
+                <p class="card__descricao">A linha ecológica Vero da Acer: inovação sustentável com 
+                    materiais reciclados, redução de CO2 e consumo de energia.</p>
+                <button  id="Aspire" onclick="exibirAlerta('Aspire Vero')" class="card__botao">Saber mais</button>
+            </div>
+        </div>
+        <div class="cards">
+            <img alt="Energia solar" class="card__imagem" src="./assets/img/cardstech/energia__solar.jpg" />
+            <div class="card__conteudo">
+                <h4 class="card__titulo">Energia Solar</h4>
+                <p class="card__descricao">Uma solução limpa e renovável que utiliza a luz do sol para gerar eletricidade, 
+                reduzindo a dependência de fontes de energia</p>
+                <button id="solar" onclick="exibirAlerta('Energia Solar')" class="card__botao">Saber mais</button>
+            </div>
+        </div>
+        <div class="cards">
+            <img alt="Transporte Publico eletrico" class="card__imagem" src="./assets/img/cardstech/transporteeletrico.png" />
+            <div class="card__conteudo">
+                <h4 class="card__titulo">Transporte Elétrco</h4>
+                <p class="card__descricao">O transporte elétrico é uma alternativa sustentável e eficiente, contribuindo para a redução da poluição do ar e dos gases de efeito estufa.</p>
+                <button id="transporte"   onclick="exibirAlerta('Transporte')"   class="card__botao">Saber Mais</button>
+            </div>
+        </div>
+        <div class="cards">
+            <img alt="Predio sustentavel " class="card__imagem" src="./assets/img/cardstech/EDSUST.png" />
+            <div class="card__conteudo">
+                <h4 class="card__titulo">Edifícios sustentáveis</h4>
+                <p class="card__descricao">Incorporam projetos arquitetônicos e materiais eco-friendly para minimizar o consumo de energia e recursos naturais.</p>
+                <button id="Edifícios"  onclick="exibirAlerta('Edifícios sustentáveis')" class="card__botao">Saber mais</button>
+            </div>
+        </div>
+        <div class="cards">
+            <img alt="Smart Grid" class="card__imagem" src="./assets/img/cardstech/SMARTGRID.png" />
+            <div class="card__conteudo">
+                <h4 class="card__titulo">Smart Grids</h4>
+                <p class="card__descricao">Redes elétricas inteligentes que maximizam a eficiência energética e facilitam a integração de energias renováveis.</p>
+                <button id="Smart" onclick="exibirAlerta('Smart Grid')" class="card__botao">Saber mais</button>
+            </div>
+        </div>
+        <div class="cards">
+            <img alt="Eco design" class="card__imagem" src="./assets/img/cardstech/ECODESI.png" />
+            <div class="card__conteudo">
+                <h4 class="card__titulo">Eco Design</h4>
+                <p class="card__descricao">Abordagem que visa criar produtos sustentáveis desde sua concepção, considerando o ciclo de vida e minimizando impactos ambientais.</p>
+                <button id="Eco" onclick="exibirAlerta('Eco Design')" class="card__botao">Saber mais</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="quem-somos" id="section">
+        <h3 class="quem_somos__titulo">Quem somos</h3>
+        <p class="quem-somos__descricao">Conheça a comunidade por trás da iniciativa</p>
+        <div class="pessoas">
+            <div class="pessoa">
+                <span class="pessoa__nome">Ana Luiza</span>
+            </div>
+            <div class="pessoa">
+                <span class="pessoa__nome">Arnaldo</span>
+            </div>
+            <div class="pessoa">
+                <span class="pessoa__nome">Gabriel</span>
+            </div>
+            <div class="pessoa">
+                <span class="pessoa__nome">Samuel</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <img class="logo" src="./assets/img/logo.png" alt="Logo">
+            <div class="footer__redes-sociais">
+                <p>@copyrigth 2023- Unip - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    
+    
+    <script src="./assets/Js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+</body>
+</html>

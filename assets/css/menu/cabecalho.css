@@ -1,0 +1,35 @@
+
+
+
+.cabecalho{
+    align-items: center;
+    background-color: rgb(231, 229, 229);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    padding: 0 20px;
+    z-index: 999; /* Define uma camada acima dos outros elementos */
+    
+}
+
+
+
+@media screen and (min-width: 0) {
+    .cabecalho {
+        justify-content: center;
+        padding: 10px 2rem;
+
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        justify-content: space-between;
+        padding: 0 1rem;
+
+    }
+}
+
+
