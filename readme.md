@@ -6,6 +6,6 @@ Unip- Bauru
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | *Tecnologias Sustentáveis- atividade prática supervisionada**
-| :label: Tecnologias | HTML, Css e JSd(tecnologias utilizadas)
+| :label: Tecnologias | HTML, Css e JS(tecnologias utilizadas)
 | :rocket: URL         |[https://github.com/analuiza2102/TecnologiasSustent-veis)
 | :fire: Desafio     |[https://analuiza2102.github.io/TecnologiasSustent-veis/)
