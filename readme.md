@@ -1,11 +1,18 @@
-Projeto desenvolvido no curso de ciências da computação
-Desenvolvido por Ana Luiza, Arnaldo, Gabriel e Samuel
-Turma 2023
-Unip- Bauru
 
-| :placard: Vitrine.Dev |     |
-| -------------  | --- |
-| :sparkles: Nome        | *Tecnologias Sustentáveis- atividade prática supervisionada**
-| :label: Tecnologias | HTML, Css e JS(tecnologias utilizadas)
-| :rocket: URL         |[https://github.com/analuiza2102/TecnologiasSustent-veis)
-| :fire: Desafio     |[https://analuiza2102.github.io/TecnologiasSustent-veis/)
+# Tecnologias sustentáveis
+
+Site feito para APS do curso de ciência da computação
+Sendo exigido que usassemos apenas aquilo que foi visto no decorrer do semestre
+
+
+## Referência
+
+
+APS CIENCIA DA COMPUTAÇÃO UNIP 
+https://pdf.ac/K1632
+
+## Stack utilizada
+
+Front-end: HTML e CSS
+
+![image](https://github.com/analuiza2102/TecnologiasSustent-veis/assets/103043108/87c228b0-ca39-43c9-aa1c-7244eb49f662)
