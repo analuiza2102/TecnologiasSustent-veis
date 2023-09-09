@@ -15,4 +15,5 @@ https://pdf.ac/K1632
 
 Front-end: HTML e CSS
 
-![image](https://github.com/analuiza2102/TecnologiasSustent-veis/assets/103043108/87c228b0-ca39-43c9-aa1c-7244eb49f662)
+![image](https://github.com/analuiza2102/TecnologiasSustent-veis/assets/103043108/ff454353-8240-43ef-83dc-bbe4ff6c36ca)
+
