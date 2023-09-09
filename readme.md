@@ -13,7 +13,7 @@ https://pdf.ac/K1632
 
 ## Stack utilizada
 
-Front-end: HTML e CSS
+Front-end: HTML, CSS e JavaScript
 
 ![image](https://github.com/analuiza2102/TecnologiasSustent-veis/assets/103043108/ff454353-8240-43ef-83dc-bbe4ff6c36ca)
 
